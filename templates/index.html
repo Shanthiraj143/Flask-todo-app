@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask ToDo App</title>
+</head>
+<body>
+    <h1>Simple ToDo App</h1>
+    <form method="POST">
+        <input name="task" placeholder="Enter task">
+        <input type="submit" value="Add">
+    </form>
+    <ul>
+        {% for t in tasks %}
+            <li>{{ t }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Flask ToDo App</title>
+</head>
+<body>
+    <h1>Simple ToDo App</h1>
+    <form method="POST">
+        <input name="task" placeholder="Enter task">
+        <input type="submit" value="Add">
+    </form>
+    <ul>
+        {% for t in tasks %}
+            <li>{{ t }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
